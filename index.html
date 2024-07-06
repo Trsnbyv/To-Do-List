@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Enter your task</h1>
+        <form id="todoForm">
+            <input type="text" id="newTodo" autocomplete="off" placeholder="Enter your task">
+            <button type="submit" id="addBtn">Submit</button>
+        </form>
+        <button id="darkModeToggle">
+            <i class="material-icons">brightness_2</i>
+        </button>
+        <div class="filters">
+            <button id="allBtn">All (<span id="allCount">0</span>)</button>
+            <button id="completedBtn">Completed (<span id="completedCount">0</span>)</button>
+            <button id="uncompletedBtn">Uncompleted (<span id="uncompletedCount">0</span>)</button>
+        </div>
+        <ul id="todoList"></ul>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
