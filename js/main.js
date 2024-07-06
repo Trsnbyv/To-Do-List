@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener("DOMContentLoaded", () => {
     const todoForm = document.getElementById("todoForm");
     const newTodo = document.getElementById("newTodo");

@@ -23,7 +23,7 @@ body.dark-mode {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 600px;
   text-align: center;
   transition: background-color 0.3s;
   position: relative;
@@ -144,14 +144,14 @@ body.dark-mode .completed {
   cursor: pointer;
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 20px;
   border-radius: 50%;
   padding: 5px 6px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 #darkModeToggle i {
   font-size: 25px;
+  color: green;
 }
